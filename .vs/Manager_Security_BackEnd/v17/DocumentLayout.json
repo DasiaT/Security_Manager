@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\interfaces\\iaccess_page_rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:interfaces\\iaccess_page_rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\controllers\\accesspagerolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:controllers\\accesspagerolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\services\\access_page_rols\\accesspagerolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:services\\access_page_rols\\accesspagerolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\interfaces\\iauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:interfaces\\iauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|c:\\users\\dasia torres\\documents\\github\\manager_security_backend\\manager_security_backend\\dbcontext\\conectiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1F7A320-85B8-4124-B15C-A1093D15EA33}|Manager_Security_BackEnd.csproj|solutionrelative:dbcontext\\conectiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T16:22:26.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAEwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:13:28.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAccess_Page_Rol.cs",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Interfaces\\IAccess_Page_Rol.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAccess_Page_Rol.cs",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Interfaces\\IAccess_Page_Rol.cs",
+              "RelativeToolTip": "Interfaces\\IAccess_Page_Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:59:16.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccessPageRolServices.cs",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Services\\Access_Page_Rols\\AccessPageRolServices.cs",
+              "RelativeDocumentMoniker": "Services\\Access_Page_Rols\\AccessPageRolServices.cs",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Services\\Access_Page_Rols\\AccessPageRolServices.cs",
+              "RelativeToolTip": "Services\\Access_Page_Rols\\AccessPageRolServices.cs",
+              "ViewState": "AQIAAMMAAAAAAAAAAADgv8UAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:59:12.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccessPageRolController.cs",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Controllers\\AccessPageRolController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccessPageRolController.cs",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Controllers\\AccessPageRolController.cs",
+              "RelativeToolTip": "Controllers\\AccessPageRolController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:56:16.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IApplication.cs",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Interfaces\\IApplication.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IApplication.cs",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Interfaces\\IApplication.cs",
+              "RelativeToolTip": "Interfaces\\IApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:53:50.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Interfaces\\IAuthentication.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthentication.cs",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\Interfaces\\IAuthentication.cs",
+              "RelativeToolTip": "Interfaces\\IAuthentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:53:44.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "conectionDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\DBContext\\conectionDBcontext.cs",
+              "RelativeDocumentMoniker": "DBContext\\conectionDBcontext.cs",
+              "ToolTip": "C:\\Users\\DASIA TORRES\\Documents\\GitHub\\Manager_Security_BackEnd\\Manager_Security_BackEnd\\DBContext\\conectionDBcontext.cs",
+              "RelativeToolTip": "DBContext\\conectionDBcontext.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwCkAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:51:37.503Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+﻿name: .NET Core desploy
+
+on:
+  push:
+    branches: [ "qa" ]
+  pull_request:
+    branches: [ "qa" ]
+jobs:
+  deploy:
+    # Our previously created self-hosted runner
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        dotnet: ["8.0.x"]
+
+    # A sequence of tasks that will execute as part of the job
+    steps:
+      # Checks out repository so our job can access it
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }} 🎉
+        uses: actions/setup-dotnet@v1.7.2
+        with:
+          dotnet-version: ${{ matrix.dotnet-version }}
+
+      - run: export DOTNET_ROOT=$HOME/.dotnet
+      - run: export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
+      
+      - name: Install dependencies ⬇️
+        run: /home/infra/.dotnet/dotnet restore
+
+      - name: Build 📦
+        run: /home/infra/.dotnet/dotnet build --configuration Release --no-restore
+
+      # We will output publish files to the folder we previously created
+      - name: Publish 🚀
+        run: /home/infra/.dotnet/dotnet publish /var/www/html/Manager_Security_BackEnd/backend-runner/_work/Manager_Security_BackEnd/Manager_Security_BackEnd/Manager_Security_BackEnd.csproj -c Release -o /var/www/html/Manager_Security_BackEnd/backend
+        
+      - name: restart service
+        run: sudo /bin/systemctl restart Manager_Security_BackEnd.service
+      - name: Notify Discord
+        if: success()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          REPOSITORY: ${{ github.repository }}
+          VERSION: ${{ secrets.VERSION_QA }}
+        run: |
+          json=$(jq -n \
+            --arg username "Github" \
+            --arg content "🚀 Despliegue Manager Security BackEnd - QA - ${VERSION}" \
+
+            --arg version "v${VERSION}" \
+            --arg actor "${GITHUB_ACTOR}" \
+              --arg repository "${REPOSITORY}" \
+              --argjson color 15257600 \
+              --arg description "Despliegue y actualizacion de servidor Backend" \
+            '{
+                "username": $username,
+                "content": $content,
+                "embeds": [
+                  {
+                    "author": {
+                      "name": "Servidor QA"
+                    },
+                    "title": "Version '"$version"'",
+                    "description": $description,
+                    "color": $color,
+                    "fields": [
+                          {
+                            "name": "Version",
+                            "value": $version,
+                            "inline": true
+                          },
+                          {
+                            "name": "Usuario",
+                            "value": $actor,
+                            "inline": true
+                          },
+                          {
+                            "name": "Repositorio",
+                            "value": $repository,
+                            "inline": true
+                          }
+                      ],
+                  }
+                ]
+              }')
+          curl -X POST $DISCORD_WEBHOOK -H "Content-Type: application/json" -d "$json"
